@@ -1,0 +1,28 @@
+---
+- name: play-app - create tomcat x directories 
+  hosts: db
+  become: yes 
+  become_user:  root 
+  tasks:
+    - name: create a username for tomcat 
+      user:
+        name: john
+        group: rachel
+        shell: /bin/bash 
+        home: /home/john
+
+- name: Create directories and users on all staging-webservers
+  hosts: stage 
+  become: yes   #become grands ansible admin permissions 
+  become_user: root 
+  tasks:
+    - name: create a username for desmond
+      user:   #this is the user module
+        name: anu
+        groups:  mike
+        shell: /bin/bash 
+        home: /home/anu
+    - name: install httpd on all web servers/staging
+      yum:     #yum is the package manager for linux system except ubuntu and debian
+        name: httpd
+        state: installed

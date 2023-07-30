@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: true 
+  tasks:
+    - name: create a directory  called court-cases on all  servers
+      file:
+        path: /home/mike/court-cases
+        state: directory 
+        mode: 000
+        owner: root
+        group: root
+...

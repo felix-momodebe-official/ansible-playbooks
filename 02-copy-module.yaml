@@ -1,0 +1,11 @@
+---
+ - hosts: all 
+   become:  true 
+   tasks: 
+     - name: copy sensitive files to the  account of mike  in all systems
+       copy: src=contract
+             dest=/home/mike/contract 
+             owner=root 
+             group=root
+             mode=0000
+...

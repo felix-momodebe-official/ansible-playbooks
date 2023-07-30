@@ -1,0 +1,12 @@
+---
+- hosts: dev 
+  become: true 
+  tasks:
+    - name: create a file on all the dev servers
+      file:
+        path: /home/mike/students
+        state: touch 
+        mode: 0600
+        owner: mike
+        group: mike
+...
