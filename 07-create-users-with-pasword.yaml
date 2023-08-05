@@ -1,18 +1,21 @@
-- hosts: all 
+- hosts: env_Name_webservers 
   become: yes
+  remote_user: colins
+  # vars:
+  #   ansible_ssh_private_key_file: "/home/devopsmasterjan2023/.ssh/ansible"
   tasks:
   - name: Create Systems admin  User
     user:
-      name: joyce
+      name: desmond 
       create_home: true
       shell: /bin/bash
-      comment: "joyce Management Account"
+      comment: "desmond  Management Account"
       expires: -1
       password: "{{ 'DevOps@2020' | password_hash('sha512','A512') }}"
   - name: Setup Sudo Access for Devops User
     copy:
-      dest: /etc/sudoers.d/joyce
-      content: 'joyce ALL=(ALL) NOPASSWD: ALL' 
+      dest: /etc/sudoers.d/desmond 
+      content: 'desmond  ALL=(ALL) NOPASSWD: ALL' 
       validate: /usr/sbin/visudo -cf %s
   -  name: Disable Password Authentication
      lineinfile:

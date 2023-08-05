@@ -1,13 +1,16 @@
 ---
 - name: play-app - create tomcat x directories 
-  hosts: db
+  hosts: env_Name_webservers
   become: yes 
   become_user:  root 
+  remote_user: ec2-user
+  vars:
+    ansible_ssh_private_key_file: "/home/devopsmasterjan2023/.ssh/ansible"
   tasks:
     - name: create a username for tomcat 
       user:
         name: john
-        group: rachel
+        group: ec2-user
         shell: /bin/bash 
         home: /home/john
 
