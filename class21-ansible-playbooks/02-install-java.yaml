@@ -1,0 +1,21 @@
+---
+- name:  Install Java on dev hosts
+  hosts: dev      # ansible will deploy to all the hosts  [ dev, test and stage]
+  become:   yes
+  tasks:
+    - name: Update apt package cache
+      apt:    #  package module   [  sudo apt install git]
+        update_cache:   yes 
+    - name: install default-jdk package  
+      apt: 
+        name: default-jdk 
+        state: present
+
+
+
+
+
+
+
+
+...

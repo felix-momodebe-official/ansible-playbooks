@@ -1,0 +1,12 @@
+---
+- hosts: all     
+  become: true  
+  tasks:
+    - name: create a directory on all the servers      
+      file:
+        path: /home/ubuntu/devops  
+        state: directory
+        mode: 000
+        owner:  ubuntu 
+        group:  ubuntu
+...

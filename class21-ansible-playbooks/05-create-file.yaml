@@ -1,0 +1,18 @@
+---
+- hosts: all 
+  become: true 
+  tasks:
+    - name: create file on all servers 
+      file:
+        path: /home/ubuntu/class21
+        state: touch  
+        mode:  0600
+        owner: ubuntu    
+        group: ubuntu 
+
+
+
+
+
+
+...
