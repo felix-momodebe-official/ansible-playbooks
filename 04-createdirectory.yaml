@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: _Name_ansible_ubuntu
   become: true 
   tasks:
     - name: create a directory  called court-cases on all  servers

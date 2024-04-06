@@ -1,5 +1,5 @@
 ---
- - hosts:   dev 
+ - hosts:   _Name_ansible_ubuntu
    gather_facts:  no 
    remote_user: ansible 
    tasks:

@@ -1,10 +1,10 @@
 ---
- - hosts: all 
+ - hosts: _Name_ansible_linux
    become:  true 
    tasks: 
-     - name: copy sensitive files to the  account of mike  in all systems
+     - name: copy sensitive files to the  account of ec2-user  in all systems
        copy: src=contract
-             dest=/home/mike/contract 
+             dest=/home/ec2-user/contract 
              owner=root 
              group=root
              mode=0000
