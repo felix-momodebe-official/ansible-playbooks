@@ -1,41 +1,37 @@
 @all:
   |--@ungrouped:
   |--@aws_ec2:
-  |  |--3.98.140.57
-  |  |--35.183.205.200
-  |  |--15.222.12.17
-  |  |--3.96.130.1
-  |  |--15.223.4.216
-  |  |--35.183.28.57
-  |  |--35.183.104.42
-  |  |--3.99.135.43
-  |--@    _Name_ansible_ubuntu:
-  |  |--3.98.140.57
-  |  |--35.183.205.200
-  |  |--15.222.12.17
-  |  |--15.223.4.216
-  |  |--35.183.28.57
-  |--@_owners_devops:
-  |  |--3.98.140.57
-  |  |--35.183.205.200
-  |  |--15.222.12.17
-  |  |--15.223.4.216
-  |  |--35.183.28.57
-  |--@_env_dev:
-  |  |--3.98.140.57
-  |  |--35.183.205.200
-  |  |--15.222.12.17
-  |  |--15.223.4.216
-  |  |--35.183.28.57
-  |--@     _Name_ansible_linux:
-  |  |--3.96.130.1
-  |  |--35.183.104.42
-  |  |--3.99.135.43
-  |--@_client_mtn:
-  |  |--3.96.130.1
-  |  |--35.183.104.42
-  |  |--3.99.135.43
-  |--@_env_testing:
-  |  |--3.96.130.1
-  |  |--35.183.104.42
-  |  |--3.99.135.43
+  |  |--ec2-54-172-186-44.compute-1.amazonaws.com
+  |  |--ec2-52-90-110-59.compute-1.amazonaws.com
+  |  |--ec2-54-174-172-201.compute-1.amazonaws.com
+  |  |--ec2-3-84-49-219.compute-1.amazonaws.com
+  |  |--ec2-18-209-14-153.compute-1.amazonaws.com
+  |  |--ec2-54-211-144-115.compute-1.amazonaws.com
+  |--@_OWNER_STAGING:
+  |  |--ec2-54-172-186-44.compute-1.amazonaws.com
+  |  |--ec2-52-90-110-59.compute-1.amazonaws.com
+  |  |--ec2-3-84-49-219.compute-1.amazonaws.com
+  |--@_Name_Ubuntu_01:
+  |  |--ec2-54-172-186-44.compute-1.amazonaws.com
+  |--@_Name_Ubuntu_02:
+  |  |--ec2-52-90-110-59.compute-1.amazonaws.com
+  |--@_DEPT_INFO_TECH:
+  |  |--ec2-54-174-172-201.compute-1.amazonaws.com
+  |  |--ec2-18-209-14-153.compute-1.amazonaws.com
+  |  |--ec2-54-211-144-115.compute-1.amazonaws.com
+  |--@_Name_Amazon_linux_02:
+  |  |--ec2-54-174-172-201.compute-1.amazonaws.com
+  |--@_OWNER_PROD:
+  |  |--ec2-54-174-172-201.compute-1.amazonaws.com
+  |  |--ec2-18-209-14-153.compute-1.amazonaws.com
+  |  |--ec2-54-211-144-115.compute-1.amazonaws.com
+  |--@_UNIT_DEVOPS:
+  |  |--ec2-54-174-172-201.compute-1.amazonaws.com
+  |  |--ec2-18-209-14-153.compute-1.amazonaws.com
+  |  |--ec2-54-211-144-115.compute-1.amazonaws.com
+  |--@_Name_Ubuntu_03:
+  |  |--ec2-3-84-49-219.compute-1.amazonaws.com
+  |--@_Name_Amazon_Linux_01:
+  |  |--ec2-18-209-14-153.compute-1.amazonaws.com
+  |--@_Name_Amazon_linux_03:
+  |  |--ec2-54-211-144-115.compute-1.amazonaws.com
