@@ -7,20 +7,21 @@
   |  |--ec2-3-84-49-219.compute-1.amazonaws.com
   |  |--ec2-18-209-14-153.compute-1.amazonaws.com
   |  |--ec2-54-211-144-115.compute-1.amazonaws.com
+  |--@_Name_Ubuntu:
+  |  |--ec2-54-172-186-44.compute-1.amazonaws.com
+  |  |--ec2-52-90-110-59.compute-1.amazonaws.com
+  |  |--ec2-3-84-49-219.compute-1.amazonaws.com
   |--@_OWNER_STAGING:
   |  |--ec2-54-172-186-44.compute-1.amazonaws.com
   |  |--ec2-52-90-110-59.compute-1.amazonaws.com
   |  |--ec2-3-84-49-219.compute-1.amazonaws.com
-  |--@_Name_Ubuntu_01:
-  |  |--ec2-54-172-186-44.compute-1.amazonaws.com
-  |--@_Name_Ubuntu_02:
-  |  |--ec2-52-90-110-59.compute-1.amazonaws.com
   |--@_DEPT_INFO_TECH:
   |  |--ec2-54-174-172-201.compute-1.amazonaws.com
   |  |--ec2-18-209-14-153.compute-1.amazonaws.com
   |  |--ec2-54-211-144-115.compute-1.amazonaws.com
-  |--@_Name_Amazon_linux_02:
+  |--@_Name_Amazon_linux:
   |  |--ec2-54-174-172-201.compute-1.amazonaws.com
+  |  |--ec2-54-211-144-115.compute-1.amazonaws.com
   |--@_OWNER_PROD:
   |  |--ec2-54-174-172-201.compute-1.amazonaws.com
   |  |--ec2-18-209-14-153.compute-1.amazonaws.com
@@ -29,9 +30,5 @@
   |  |--ec2-54-174-172-201.compute-1.amazonaws.com
   |  |--ec2-18-209-14-153.compute-1.amazonaws.com
   |  |--ec2-54-211-144-115.compute-1.amazonaws.com
-  |--@_Name_Ubuntu_03:
-  |  |--ec2-3-84-49-219.compute-1.amazonaws.com
-  |--@_Name_Amazon_Linux_01:
+  |--@_Name_Amazon_Linux:
   |  |--ec2-18-209-14-153.compute-1.amazonaws.com
-  |--@_Name_Amazon_linux_03:
-  |  |--ec2-54-211-144-115.compute-1.amazonaws.com

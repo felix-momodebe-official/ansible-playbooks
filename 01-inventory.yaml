@@ -6,33 +6,21 @@
             "ec2-54-211-144-115.compute-1.amazonaws.com"
         ]
     },
-    "_Name_Amazon_Linux_01": {
+    "_Name_Amazon_Linux": {
         "hosts": [
             "ec2-18-209-14-153.compute-1.amazonaws.com"
         ]
     },
-    "_Name_Amazon_linux_02": {
+    "_Name_Amazon_linux": {
         "hosts": [
-            "ec2-54-174-172-201.compute-1.amazonaws.com"
-        ]
-    },
-    "_Name_Amazon_linux_03": {
-        "hosts": [
+            "ec2-54-174-172-201.compute-1.amazonaws.com",
             "ec2-54-211-144-115.compute-1.amazonaws.com"
         ]
     },
-    "_Name_Ubuntu_01": {
+    "_Name_Ubuntu": {
         "hosts": [
-            "ec2-54-172-186-44.compute-1.amazonaws.com"
-        ]
-    },
-    "_Name_Ubuntu_02": {
-        "hosts": [
-            "ec2-52-90-110-59.compute-1.amazonaws.com"
-        ]
-    },
-    "_Name_Ubuntu_03": {
-        "hosts": [
+            "ec2-54-172-186-44.compute-1.amazonaws.com",
+            "ec2-52-90-110-59.compute-1.amazonaws.com",
             "ec2-3-84-49-219.compute-1.amazonaws.com"
         ]
     },
@@ -195,7 +183,7 @@
                 "subnet_id": "subnet-0007a0e08ab97178b",
                 "tags": {
                     "DEPT": "INFO-TECH",
-                    "Name": "Amazon_Linux_01",
+                    "Name": "Amazon_Linux",
                     "OWNER": "PROD",
                     "UNIT": "DEVOPS"
                 },
@@ -339,7 +327,7 @@
                 "state_transition_reason": "",
                 "subnet_id": "subnet-00a1fbce32e507f08",
                 "tags": {
-                    "Name": "Ubuntu_03",
+                    "Name": "Ubuntu",
                     "OWNER": "STAGING"
                 },
                 "usage_operation": "RunInstances",
@@ -482,7 +470,7 @@
                 "state_transition_reason": "",
                 "subnet_id": "subnet-00a1fbce32e507f08",
                 "tags": {
-                    "Name": "Ubuntu_02",
+                    "Name": "Ubuntu",
                     "OWNER": "STAGING"
                 },
                 "usage_operation": "RunInstances",
@@ -625,7 +613,7 @@
                 "state_transition_reason": "",
                 "subnet_id": "subnet-037ec841d71ae4dcf",
                 "tags": {
-                    "Name": "Ubuntu_01",
+                    "Name": "Ubuntu",
                     "OWNER": "STAGING"
                 },
                 "usage_operation": "RunInstances",
@@ -769,7 +757,7 @@
                 "subnet_id": "subnet-00a1fbce32e507f08",
                 "tags": {
                     "DEPT": "INFO-TECH",
-                    "Name": "Amazon_linux_02",
+                    "Name": "Amazon_linux",
                     "OWNER": "PROD",
                     "UNIT": "DEVOPS"
                 },
@@ -914,7 +902,7 @@
                 "subnet_id": "subnet-00a1fbce32e507f08",
                 "tags": {
                     "DEPT": "INFO-TECH",
-                    "Name": "Amazon_linux_03",
+                    "Name": "Amazon_linux",
                     "OWNER": "PROD",
                     "UNIT": "DEVOPS"
                 },
@@ -929,16 +917,13 @@
         "children": [
             "ungrouped",
             "aws_ec2",
+            "_Name_Ubuntu",
             "_OWNER_STAGING",
-            "_Name_Ubuntu_01",
-            "_Name_Ubuntu_02",
             "_DEPT_INFO_TECH",
-            "_Name_Amazon_linux_02",
+            "_Name_Amazon_linux",
             "_OWNER_PROD",
             "_UNIT_DEVOPS",
-            "_Name_Ubuntu_03",
-            "_Name_Amazon_Linux_01",
-            "_Name_Amazon_linux_03"
+            "_Name_Amazon_Linux"
         ]
     },
     "aws_ec2": {
