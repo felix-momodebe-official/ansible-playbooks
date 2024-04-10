@@ -1,6 +1,6 @@
 ---
 - name: Install Docker
-  hosts: _Name_Amazon_linux
+  hosts: _Name_Ubuntu
   become: yes
   
   tasks:
