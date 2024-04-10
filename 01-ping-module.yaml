@@ -1,5 +1,13 @@
 ---
- - hosts:   _Name_ansible_ubuntu
+ - hosts:   _Name_Amazon_linux
+   gather_facts:  no 
+   remote_user: ansible 
+   tasks:
+     - name: Test connections 
+       ping:
+       remote_user: ansible 
+
+ - hosts:   _Name_Ubuntu
    gather_facts:  no 
    remote_user: ansible 
    tasks:

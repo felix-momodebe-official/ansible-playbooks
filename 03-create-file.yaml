@@ -1,12 +1,27 @@
 ---
-- hosts: dev 
+
+- hosts: _Name_Ubuntu
   become: true 
   tasks:
     - name: create a file on all the dev servers
       file:
-        path: /home/mike/students
+        path: /home/ubuntu/students
         state: touch 
         mode: 0600
-        owner: mike
-        group: mike
-...
+        owner: ubuntu
+        group: ubuntu
+    # when: ansible_distribution == "Ubuntu"
+
+- hosts: _Name_Amazon_linux
+  become: true 
+  tasks:
+    - name: create a file on all the dev servers
+      file:
+        path: /home/ec2-user/students
+        state: touch 
+        mode: 0600
+        owner: ec2-user
+        group: ec2-user
+    # when: ansible_distribution == "Amazon"
+
+
