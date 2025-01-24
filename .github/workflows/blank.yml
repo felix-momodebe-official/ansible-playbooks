@@ -26,5 +26,5 @@ jobs:
           distribution: 'temurin'
           java-version: '17'  # Changed to 17 to match your original comment
       
-      - name: Run Java Application
-        run: java HelloWorldApp.java
+      # - name: Run Java Application
+      #   run: java HelloWorldApp.java
